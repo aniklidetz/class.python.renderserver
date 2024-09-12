@@ -17,7 +17,7 @@
     </div>
     Test
     <script>
-        const SERVER = "http://127.0.0.1:5000/categories"
+        const SERVER = "https://class-python-renderserver.onrender.com/categories"
         axios(SERVER).then(res => display.innerHTML ="<select id='cats' onchange='samp_select()'>" + res.data.map(cat => `<option value=${cat.catid}>
        
             ${cat.catid}
