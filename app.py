@@ -9,7 +9,8 @@ CORS(app)
 categories =[
     {"catid":1,"desc":"meat"},
     {"catid":2,"desc":"dairyyyyyyyyy"},
-    {"catid":3,"desc":"bakery"}]
+    {"catid":3,"desc":"bakery"}
+    {"catid":4,"desc":"bakkkkkery"}]
 
 
 @app.route('/')
